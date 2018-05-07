@@ -1,0 +1,95 @@
+/*
+styles for the demo page
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono|Titillium+Web:200,300,400);
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background: #2c2d32;
+    color: #777;
+    padding: 0!important;
+}
+
+
+h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+    page-break-after: avoid;
+    background-color: #1b1c20;
+    color: #ededed;
+    padding: 10px 20px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 200;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+div{
+    display: flex;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+section{
+    padding: 2rem;
+
+   
+}
+
+article{
+    font-size: 0.75rem;
+}
+
+article img{
+    display: flex;
+    margin: auto;
+
+}
+
+.lead{
+    font-size: 1.2rem;
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+
+code{
+    padding: 16px;
+    overflow: auto;
+    font-size: 1rem;
+    line-height: 1.45;
+    background-color: #f6f8fa;
+    border-radius: 3px;
+    margin-bottom: 1.2rem;
+    display: block;
+}
+
+a{
+    color: #8eb632
+}
+
+footer{
+    margin-top: 6rem
+
+}
+footer p{
+    font-size: 0.75rem;
+}
